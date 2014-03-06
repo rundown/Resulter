@@ -30,7 +30,7 @@ function resulter_handler($atts){
 	), $atts ) );
 	
 	if($_input_id=="none"){
-	    return "</h1>This user is invalid</h1>You have reached an unintended page. Please use the navigation links for browsing our site.";
+	    return "<h1>This user is invalid</h1>You have reached an unintended page. Please use the navigation links for browsing our site.";
 	}
 }
  
