@@ -24,7 +24,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-function resulter_single($atts){
+function resulter_handler($atts){
     extract( shortcode_atts( array(
 		'_input_id' => 'none',
 	), $atts ) );
@@ -35,7 +35,5 @@ function resulter_single($atts){
 }
  
 add_shortcode("resulter-show", "resulter_handler");
-add_shortcode("resulter-show-group", "resulter_group_handler");
-
  
- ?>
+?>
